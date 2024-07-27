@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-    <title>Contato</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Contato</title>
 </head>
 <body>
-    <div id="main-container">
+  <div class="main-container">
+    <div class="main-container bloco-1">
       <!-- Informações de endereço-->
-      <div id="address-container">
+      <div class="address-container">
         <div class="fade"></div>
-        <div id="address-content">
+        <div class="address-content">
           <h2><ion-icon name="navigate-outline"></ion-icon> Endereço</h2>
           <p>Rua das Flores, 133</p>
           <h2><ion-icon name="call-outline"></ion-icon> Telefone</h2>
@@ -20,30 +25,32 @@
           <p>meuemail@email.com</p>
         </div> 
       </div>
-       <!-- Formulário para contato-->
-      <div id="form-container">
-        <H2>Nos mande uma mensagem!</H2>
-        <form id="contact-form">
+        <!-- Formulário para contato-->
+      <div class="form-container">
+        <h2>Nos mande uma mensagem!</h2>
+        <form class="contact-form">
           <label for="name">Nome:</label>
           <input type="text" name="name" placeholder="Digite seu nome">
           <label for="email">E-mail:</label>
           <input type="email" name="email" placeholder="Digite seu e-mail">
           <label for="phone">Telefone:</label>
-          <input type="text" name="phone" placeholder="Digite seu telefone">
+          <input type="text" name="phone" required maxlength="15" placeholder="Digite seu telefone">
           <label for="msg">Sua mensagem:</label>
           <textarea name="msg" placeholder="Como podemos te ajudar"></textarea>
           <input type="submit" value="Enviar mensagem">
         </form>                                                   
       </div>
     </div>
-    <div class="main-container bloco-2">
-      <div class="copyrigth">
-        <h5>&copy; 2024 - Desenvolvido com &hearts; por <strong>AlêV.Bonfim</strong>.</h5>
-      </div>
-    </div>    
+  </div>
+  <div class="main-container bloco-2">
+    <div class="copyrigth">
+      <h5>&copy; 2024 - Desenvolvido com &hearts; por AlêV.Bonfim.</h5>
+    </div>
+  </div>
+        
     
     
-   <!-- <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>-->
-   <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+  <!-- <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>-->
+  <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
