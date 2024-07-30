@@ -82,7 +82,6 @@
 }
 
 .contact-form {
-    width: 468px;
     text-align: left;
 }
 
@@ -118,9 +117,10 @@
     font-weight: bold;
     cursor: pointer;
     width: 300px;
-    margin: 30px auto;
+    margin: auto;
     border: 2px solid transparent;
     transition: .5s;
+    margin-top: 35px;
 }
 
 .contact-form input[type="submit"]:hover {
@@ -130,20 +130,25 @@
 }
 
 .bloco-2 {
-    margin-top: 580px;
+    padding: 12px;
+    margin-top: 600px;
 }
 
-.copyrigth h5 {
+.copyrigth h4 {
     color: #333;
-    font-family: "Alex Brush", cursive;
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: block;
     text-align: center;
-    opacity: 0.;
+    padding: 15px;
 }
+strong {
+    font-family: "Alex Brush", cursive;
+}
+
 
 /* RESPONSIVO */
 
@@ -256,9 +261,10 @@
         font-weight: bold;
         cursor: pointer;
         width: 300px;
-        margin: 30px auto;
+        margin: auto;
         border: 2px solid transparent;
         transition: .5s;
+        margin-top: 35px;
         
     }
     .contact-form input[type="submit"]:hover {
@@ -268,20 +274,25 @@
         text-align: center;
     }
     .bloco-2 {
-        margin-top: 150px;
+        margin-top: 200px;
+        padding: 12px;
     }
     
-    .copyrigth h5 {
+    .copyrigth h4 {
         color: #333;
-        font-family: "Alex Brush", cursive;
+        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        display: block;
         text-align: center;
-        opacity: 0.;
+        padding-top: 30px;
+
     }
+    strong {
+        font-family: "Alex Brush", cursive;
+    }
+    
     
 }
 
